@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo_app{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#input{
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+#add{
+    margin-top: 20px;
+    width: 20%;
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+
+}
+#add:hover{
+    background-color: greenyellow;
+}
+
+
+ul li{
+    margin-top: 10px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#Deletebtn{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    color: #fff;
+}
+#Deletebtn:hover{
+    background-color: red;
+}
+
+.bg-success{
+    margin-top: 10px;
+    background-color: greenyellow;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-left: 10px solid green;
+}
+.bg-danger{
+    margin-top: 10px;
+    background-color: red;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-left: 10px solid green;
+}
